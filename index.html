@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+        <script src="index.js"></script>
 
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
@@ -528,7 +529,7 @@
                         </label>
 
                         <br><br>
-                        <button class="btn bg-[#1DD100] border-0 w-[510px]">
+                        <button onclick="goToPage2()"  class="btn bg-[#1DD100] border-0 w-[510px]">
                             <h2 class="text-white font-bold text-2xl">Next</h2>
                         </button>
                     </form>
@@ -592,8 +593,14 @@
     </footer>
 
 
+    <script>
+        function goToPage2() {
+   
+   window.location.href = 'success.html';
+}
+    </script>
 
-
+<script src="index.js"></script>
     <script src="https://kit.fontawesome.com/74500a6b66.js" crossorigin="anonymous"></script>
 </body>
 
